@@ -6,7 +6,9 @@
   <title>Nutri Delight — Fuel Your Day Naturally</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body class="bg-lime-50 text-gray-900 font-sans">
+  <!-- Header -->
   <header class="bg-white shadow">
     <div class="max-w-5xl mx-auto px-6 py-6 flex items-center justify-between">
       <h1 class="text-2xl font-bold text-green-600">Nutri Delight</h1>
@@ -17,44 +19,81 @@
     </div>
   </header>
 
+  <!-- Hero Section -->
   <main class="max-w-5xl mx-auto px-6 py-12">
     <section class="text-center mb-12">
-      <img src="https://images.unsplash.com/photo-1604335399105-0e28a4b9e0c5?auto=format&fit=crop&w=800&q=80" alt="Nutri Delight Bars" class="mx-auto rounded-xl shadow-lg mb-6 w-full md:w-3/4 object-cover" />
+      <img src="https://images.unsplash.com/photo-1574226516831-e1dff420e12e?auto=format&fit=crop&w=1200&q=80" 
+           alt="Nutri Delight Bars" 
+           class="mx-auto rounded-xl shadow-lg mb-6 w-full md:w-3/4 object-cover" />
+
       <h2 class="text-4xl font-extrabold mb-3">Fuel Your Day Naturally</h2>
-      <p class="text-lg text-gray-700 mb-6">High-protein, organic, and gluten-free nutrition bars designed to power your lifestyle — the natural way.</p>
-      <a href="#preorder" class="inline-block bg-green-600 text-white font-semibold px-6 py-3 rounded-lg shadow hover:bg-green-700 transition">Pre-Order Now — 10% Off</a>
-      <p class="mt-3 text-sm text-gray-500">Offer valid for the next <span id="countdown">48:00:00</span> only.</p>
+      <p class="text-lg text-gray-700 mb-6">
+        High-protein, organic, and gluten-free nutrition bars designed to power your lifestyle — the natural way.
+      </p>
+
+      <a href="#preorder" class="inline-block bg-green-600 text-white font-semibold px-6 py-3 rounded-lg shadow hover:bg-green-700 transition">
+        Pre-Order Now — 10% Off
+      </a>
+      <p class="mt-3 text-sm text-gray-500">
+        Offer valid for the next <span id="countdown">48:00:00</span> only.
+      </p>
     </section>
 
+    <!-- Features -->
     <section id="features" class="grid md:grid-cols-3 gap-6 mb-16">
       <div class="bg-white p-6 rounded-xl shadow hover:shadow-md transition">
-        <img src="https://images.unsplash.com/photo-1590080875835-11bdbbb2e2c8?auto=format&fit=crop&w=400&q=80" alt="Protein Ingredients" class="rounded-lg mb-3 w-full h-40 object-cover" />
+        <img src="https://images.unsplash.com/photo-1571772805064-207c8435df79?auto=format&fit=crop&w=800&q=80" 
+             alt="Protein Ingredients" 
+             class="rounded-lg mb-3 w-full h-40 object-cover" />
         <h3 class="text-lg font-semibold text-green-600 mb-2">High Protein</h3>
         <p>15g of clean, plant-based protein to keep you energized throughout your day.</p>
       </div>
+
       <div class="bg-white p-6 rounded-xl shadow hover:shadow-md transition">
-        <img src="https://images.unsplash.com/photo-1601315481802-78debc35b1a9?auto=format&fit=crop&w=400&q=80" alt="Organic Ingredients" class="rounded-lg mb-3 w-full h-40 object-cover" />
+        <img src="https://images.unsplash.com/photo-1570158268183-d296b2892211?auto=format&fit=crop&w=800&q=80" 
+             alt="Organic Ingredients" 
+             class="rounded-lg mb-3 w-full h-40 object-cover" />
         <h3 class="text-lg font-semibold text-green-600 mb-2">Organic Ingredients</h3>
         <p>Made with certified organic nuts, grains, and fruits — nothing artificial.</p>
       </div>
+
       <div class="bg-white p-6 rounded-xl shadow hover:shadow-md transition">
-        <img src="https://images.unsplash.com/photo-1609752323504-87dfddce9b6a?auto=format&fit=crop&w=400&q=80" alt="Gluten-Free Snack" class="rounded-lg mb-3 w-full h-40 object-cover" />
+        <img src="https://images.unsplash.com/photo-1570790943272-80d1d5f38956?auto=format&fit=crop&w=800&q=80" 
+             alt="Gluten-Free Snack" 
+             class="rounded-lg mb-3 w-full h-40 object-cover" />
         <h3 class="text-lg font-semibold text-green-600 mb-2">Gluten-Free</h3>
         <p>Wholesome and allergy-friendly so everyone can enjoy.</p>
       </div>
     </section>
 
+    <!-- Instagram Mock -->
     <section id="instagram" class="bg-white p-6 rounded-xl shadow mb-16">
       <h3 class="text-2xl font-bold mb-3">Instagram Launch Post</h3>
-      <img src="https://images.unsplash.com/photo-1511689660979-3b6cc0da7d6a?auto=format&fit=crop&w=1200&q=60" alt="Nutri Delight Instagram Post" class="rounded-lg mb-4" />
-      <p class="mb-4">🌿 Introducing <strong>Nutri Delight</strong> — your go-to snack for pure, natural energy! Packed with <strong>high protein</strong>, <strong>organic ingredients</strong>, and <strong>gluten-free</strong> goodness. Perfect for a healthy lifestyle on the go.</p>
-      <p class="text-sm text-gray-700"><strong>💥 Launch Offer:</strong> Pre-order now and get <strong>10% OFF</strong> your first box! Hurry — offer ends in <span id="instaCountdown">48:00:00</span>! <br>👉 Tap the link in bio to fuel your day, naturally.</p>
-      <p class="text-xs mt-4 text-gray-500">#NutriDelight #FuelYourDayNaturally #HealthySnacks #ProteinPower</p>
+      <img src="https://images.unsplash.com/photo-1511689660979-3b6cc0da7d6a?auto=format&fit=crop&w=1200&q=80" 
+           alt="Nutri Delight Instagram Post" 
+           class="rounded-lg mb-4" />
+      <p class="mb-4">
+        🌿 Introducing <strong>Nutri Delight</strong> — your go-to snack for pure, natural energy! Packed with 
+        <strong>high protein</strong>, <strong>organic ingredients</strong>, and <strong>gluten-free</strong> goodness. 
+        Perfect for a healthy lifestyle on the go.
+      </p>
+      <p class="text-sm text-gray-700">
+        <strong>💥 Launch Offer:</strong> Pre-order now and get <strong>10% OFF</strong> your first box! Hurry — offer ends in 
+        <span id="instaCountdown">48:00:00</span>! <br>
+        👉 Tap the link in bio to fuel your day, naturally.
+      </p>
+      <p class="text-xs mt-4 text-gray-500">
+        #NutriDelight #FuelYourDayNaturally #HealthySnacks #ProteinPower
+      </p>
     </section>
 
+    <!-- Preorder Form -->
     <section id="preorder" class="bg-white p-8 rounded-xl shadow text-center">
       <h3 class="text-2xl font-bold mb-3">Pre-Order Now & Save 10%</h3>
-      <p class="text-gray-700 mb-6">Be the first to enjoy Nutri Delight! Order within the next <span id="formCountdown">48:00:00</span> to claim your 10% discount.</p>
+      <p class="text-gray-700 mb-6">
+        Be the first to enjoy Nutri Delight! Order within the next 
+        <span id="formCountdown">48:00:00</span> to claim your 10% discount.
+      </p>
       <form class="max-w-md mx-auto grid gap-4">
         <input type="text" placeholder="Full Name" class="border p-3 rounded" required>
         <input type="email" placeholder="Email Address" class="border p-3 rounded" required>
@@ -63,16 +102,22 @@
           <option>2 Boxes</option>
           <option>3 Boxes</option>
         </select>
-        <button type="submit" class="bg-green-600 text-white font-semibold py-3 rounded-lg hover:bg-green-700 transition">Reserve My Box — Get 10% Off</button>
+        <button type="submit" class="bg-green-600 text-white font-semibold py-3 rounded-lg hover:bg-green-700 transition">
+          Reserve My Box — Get 10% Off
+        </button>
       </form>
-      <p class="mt-3 text-xs text-gray-500">Use promo code <strong>NUTRI10</strong> at checkout.</p>
+      <p class="mt-3 text-xs text-gray-500">
+        Use promo code <strong>NUTRI10</strong> at checkout.
+      </p>
     </section>
   </main>
 
+  <!-- Footer -->
   <footer class="bg-white border-t mt-16 py-6 text-center text-sm text-gray-600">
     © <span id="year"></span> Nutri Delight — All rights reserved.
   </footer>
 
+  <!-- Countdown Script -->
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
 
